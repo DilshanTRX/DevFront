@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    border: 1px solid red;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.nav-bar{
+    border: 1px solid blue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-content{
+    flex: 1;
+}
+.nav-content> ul{
+    display: flex;
+    border: 1px solid yellow;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-content>ul> li{
+    margin-right: 50px;
+}
